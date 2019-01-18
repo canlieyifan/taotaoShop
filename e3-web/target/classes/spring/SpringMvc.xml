@@ -47,6 +47,4 @@
     <dubbo:reference interface="com.kk.ItemCatService" id="itemCatService"/>
 
 
-
-
 </beans>
