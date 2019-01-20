@@ -11,10 +11,12 @@
         <option value="$PROJECT_DIR$/../e3parent/pom.xml" />
         <option value="$PROJECT_DIR$/../e3protalweb/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-protal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/pom.xml" />
         <option value="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/pom.xml" />
       </set>
     </option>

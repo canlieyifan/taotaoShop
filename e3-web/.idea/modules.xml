@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/e3-content-interface.iml" filepath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/e3-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/e3-content-service.iml" filepath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/e3-content-service.iml" />
     </modules>
   </component>
