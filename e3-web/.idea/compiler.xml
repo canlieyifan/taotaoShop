@@ -12,10 +12,13 @@
         <module name="e3-manager-pojo" />
         <module name="e3-manager-service" />
         <module name="e3-manager-web" />
+        <module name="e3-protal-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="e3protalweb" target="1.5" />
       <module name="hh" target="1.7" />
+      <module name="workspace" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
