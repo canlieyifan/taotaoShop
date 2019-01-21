@@ -15,11 +15,14 @@
         <module name="e3-manager-service" />
         <module name="e3-manager-web" />
         <module name="e3-protal-web" />
+        <module name="e3contentinterface" />
+        <module name="e3contentservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="e3-content-interface" target="1.7" />
-      <module name="e3-content-service" target="1.7" />
+      <module name="content" target="1.7" />
+      <module name="e3contentinterface" target="1.7" />
+      <module name="e3contentservice" target="1.7" />
       <module name="e3protalweb" target="1.5" />
       <module name="hh" target="1.7" />
       <module name="workspace" target="1.7" />

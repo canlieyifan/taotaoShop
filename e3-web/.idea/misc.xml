@@ -14,12 +14,6 @@
         <option value="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
