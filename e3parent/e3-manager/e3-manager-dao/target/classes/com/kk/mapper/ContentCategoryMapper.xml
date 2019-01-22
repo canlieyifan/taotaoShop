@@ -102,6 +102,9 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
+
+
+
   <insert id="insert" parameterType="com.kk.pojo.ContentCategory">
     insert into tb_content_category (id, parent_id, name, 
       status, sort_order, is_parent, 
@@ -110,7 +113,15 @@
       #{status,jdbcType=INTEGER}, #{sortOrder,jdbcType=INTEGER}, #{isParent,jdbcType=BIT}, 
       #{created,jdbcType=TIMESTAMP}, #{updated,jdbcType=TIMESTAMP})
   </insert>
+
+
+
   <insert id="insertSelective" parameterType="com.kk.pojo.ContentCategory">
+
+      <selectKey keyProperty="id" resultType="Long" order="AFTER">
+          select LAST_INSERT_ID()
+      </selectKey>
+
     insert into tb_content_category
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">

@@ -9,12 +9,10 @@
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
-
     <context:property-placeholder location="classpath:spring/resource"/>
 
-
     <!--扫包-->
-    <context:component-scan base-package="com.kk.protal.controller"/>
+    <context:component-scan base-package="com.kk.controller"/>
 
     <!--配置适配器与映射器 包括相应的一些转换-->
     <mvc:annotation-driven/>
@@ -32,7 +30,7 @@
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-protal-web"/>
     <dubbo:registry protocol="zookeeper" address="192.168.80.128:2181"/>
-    <dubbo:reference interface="com.kk.contentService.ContentCategoryService" id="contentCategoryService" />
+    <dubbo:reference interface="com.kk.contentService.ContentService" id="contentService"/>
 
 
 </beans>

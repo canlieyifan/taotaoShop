@@ -34,7 +34,7 @@ public class FileUploadController {
     public String uploadFile(MultipartFile uploadFile){
         try {
 //            获取文件服务上传器
-            FastDFSClient fastDFSClient = new FastDFSClient("D:\\workspace\\e3-web\\src\\main\\resources\\spring\\fdfs_client.conf");
+            FastDFSClient fastDFSClient = new FastDFSClient("D:\\workspace\\e3-manager-web\\src\\main\\resources\\spring\\fdfs_client.conf");
 //            获取文件扩展名
             String originalFilename = uploadFile.getOriginalFilename();
             String exFile = originalFilename.substring(originalFilename.lastIndexOf(".") + 1);

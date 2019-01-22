@@ -28,7 +28,6 @@ public class ItemController {
     {
         System.out.println("id = " + id);
         Item item = itemService.selectItemBuyId(id);
-        System.out.println("tbItem = " + item);
         return item;
     }
 

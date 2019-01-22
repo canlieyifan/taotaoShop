@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.kk.AppTest" time="0.072" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.kk.AppTest" time="0.082" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire3204965515976013312\surefirebooter3668624055896758104.jar C:\Users\User\AppData\Local\Temp\surefire3204965515976013312 2019-01-21T14-15-38_441-jvmRun1 surefire7293526157529043687tmp surefire_33173346949640434686tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire4409975615972275011\surefirebooter3555823096032772652.jar C:\Users\User\AppData\Local\Temp\surefire4409975615972275011 2019-01-22T13-57-05_848-jvmRun1 surefire1949704303239846289tmp surefire_36082563030197783298tmp"/>
     <property name="surefire.test.class.path" value="D:\workspace\e3parent\e3-manager\e3-manager-interface\target\test-classes;D:\workspace\e3parent\e3-manager\e3-manager-interface\target\classes;D:\resources\junit\junit\4.12\junit-4.12.jar;D:\resources\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\workspace\e3parent\e3-manager\e3-manager-pojo\target\e3-manager-pojo.jar;D:\workspace\e3parent\e3-common\target\e3-common.jar;D:\resources\joda-time\joda-time\2.5\joda-time-2.5.jar;D:\resources\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\resources\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;D:\resources\commons-net\commons-net\3.3\commons-net-3.3.jar;D:\resources\com\fasterxml\jackson\core\jackson-databind\2.4.2\jackson-databind-2.4.2.jar;D:\resources\com\fasterxml\jackson\core\jackson-annotations\2.4.0\jackson-annotations-2.4.0.jar;D:\resources\com\fasterxml\jackson\core\jackson-core\2.4.2\jackson-core-2.4.2.jar;D:\resources\org\apache\httpcomponents\httpclient\4.3.5\httpclient-4.3.5.jar;D:\resources\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;D:\resources\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;D:\resources\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\resources\org\quartz-scheduler\quartz\2.2.2\quartz-2.2.2.jar;D:\resources\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;D:\resources\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;D:\resources\fastdfs_client\fastdfs_client\1.25\fastdfs_client-1.25.jar;D:\resources\org\slf4j\slf4j-log4j12\1.6.4\slf4j-log4j12-1.6.4.jar;D:\resources\log4j\log4j\1.2.16\log4j-1.2.16.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\User"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire3204965515976013312\surefirebooter3668624055896758104.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire4409975615972275011\surefirebooter3555823096032772652.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,7 +46,7 @@
     <property name="localRepository" value="D:\resources"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2018.2.7"/>
+    <property name="idea.version" value="2018.3.3"/>
     <property name="java.version" value="1.8.0_191"/>
     <property name="user.dir" value="D:\workspace\e3parent\e3-manager\e3-manager-interface"/>
     <property name="os.arch" value="amd64"/>
@@ -62,5 +62,5 @@
     <property name="maven.repo.local" value="D:\resources"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.kk.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.kk.AppTest" time="0"/>
 </testsuite>

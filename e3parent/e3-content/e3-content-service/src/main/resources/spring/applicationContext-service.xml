@@ -26,5 +26,6 @@
 
     <!--声明需要暴露的声明接口-->
     <dubbo:service interface="com.kk.contentService.ContentCategoryService" ref="contentCategoryServiceImp"/>
+    <dubbo:service interface="com.kk.contentService.ContentService" ref="contentServiceImp" />
 
 </beans>
