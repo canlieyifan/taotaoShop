@@ -20,7 +20,7 @@ public interface ContentMapper {
 
     List<Content> selectByExample(ContentExample example);
 
-    Content selectByPrimaryKey(Long id);
+    Content selectByPrimaryKey(int id);
 
     int updateByExampleSelective(@Param("record") Content record, @Param("example") ContentExample example);
 

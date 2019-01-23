@@ -9,7 +9,7 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
     <!--引入映射文件-->
-    <context:property-placeholder location="classpath:conf/db.properties"/>
+    <context:property-placeholder location="classpath:conf/*"/>
 
 
     <!--配置数据源信息-->
