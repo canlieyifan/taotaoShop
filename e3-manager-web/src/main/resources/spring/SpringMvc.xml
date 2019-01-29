@@ -47,6 +47,7 @@
     <dubbo:reference interface="com.kk.ItemCatService" id="itemCatService"/>
     <dubbo:reference interface="com.kk.contentService.ContentCategoryService" id="contentCategoryService" />
     <dubbo:reference interface="com.kk.contentService.ContentService" id="contentService"/>
+    <dubbo:reference interface="com.kk.solr.SolrService" id="solrService"/>
 
 
 

@@ -26,7 +26,7 @@ public class ContentServiceImp implements ContentService {
 
 //    自动注入属性 如果冲突 根据Name注入相应属性
     @Autowired
-    @Qualifier("clientCluster")
+    @Qualifier("jedisClientPool")
     private JedisClient jedisClient;
 
 

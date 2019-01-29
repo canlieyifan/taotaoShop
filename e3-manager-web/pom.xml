@@ -252,6 +252,11 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.kk</groupId>
+            <artifactId>e3-solr-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
         <dependency>
             <groupId>com.kk</groupId>
