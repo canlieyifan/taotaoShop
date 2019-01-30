@@ -1,0 +1,11 @@
+com\kk\mapper\ItemMapper.class
+com\kk\mapper\ItemParamItemMapper.class
+com\kk\mapper\OrderMapper.class
+com\kk\mapper\ItemCatMapper.class
+com\kk\mapper\OrderShippingMapper.class
+com\kk\mapper\UserMapper.class
+com\kk\mapper\ContentMapper.class
+com\kk\mapper\ItemDescMapper.class
+com\kk\mapper\ItemParamMapper.class
+com\kk\mapper\OrderItemMapper.class
+com\kk\mapper\ContentCategoryMapper.class
