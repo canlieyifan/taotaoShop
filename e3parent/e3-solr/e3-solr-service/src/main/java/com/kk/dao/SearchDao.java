@@ -9,6 +9,7 @@ import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -21,6 +22,7 @@ public class SearchDao {
 
 
     @Autowired
+    @Qualifier("cloudSolrServer")
     private SolrServer solrServer;
 
     public SearchResult search(SolrQuery solrQuery) throws SolrServerException {

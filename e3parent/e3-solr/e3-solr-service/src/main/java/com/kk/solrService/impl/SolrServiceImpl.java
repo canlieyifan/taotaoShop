@@ -11,6 +11,7 @@ import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,7 +21,9 @@ public class SolrServiceImpl implements SolrService {
 
     @Autowired
     private SearchMapper searchMapper;
+
     @Autowired
+    @Qualifier("cloudSolrServer")
     private SolrServer solrServer;
 
     @Autowired
