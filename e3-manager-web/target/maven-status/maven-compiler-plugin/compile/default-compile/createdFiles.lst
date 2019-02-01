@@ -1,1 +1,7 @@
+com\kk\controller\ContentController.class
 com\kk\controller\SearchItemsController.class
+com\kk\controller\ItemController.class
+com\kk\controller\FileUploadController.class
+com\kk\controller\ItemCatController.class
+com\kk\controller\ItemController$1.class
+com\kk\controller\PageController.class

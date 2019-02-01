@@ -12,7 +12,7 @@
     <artifactId>e3-solr-service</artifactId>
     <packaging>war</packaging>
 
-    <name>e3-solr-service Maven Webapp</name>
+    <name>e3-solr-service</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -102,6 +102,26 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+        </dependency>
+
+
+
 
     </dependencies>
 

@@ -30,10 +30,11 @@
             <tx:method name="get*" propagation="SUPPORTS" read-only="true" />
         </tx:attributes>
     </tx:advice>
+
     <!-- 切面 -->
     <aop:config>
         <aop:advisor advice-ref="txAdvice"
-                     pointcut="execution(* cn.e3mall.service..*.*(..))" />
+                     pointcut="execution(* com.kk.service..*.*(..))" />
     </aop:config>
 
 </beans>

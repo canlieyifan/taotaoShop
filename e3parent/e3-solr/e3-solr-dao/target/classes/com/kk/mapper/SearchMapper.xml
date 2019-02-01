@@ -16,6 +16,22 @@
         where item.status = '1'
     </select>
 
+    <select id="getSearchItemById" resultType="com.kk.pojo.SearchItem" parameterType="Long">
+        SELECT
+            item.id,
+            item.title,
+            item.sell_point,
+            item.price,
+            item.image,
+            cat.`name` category_name
+        FROM
+            tb_item item
+        LEFT JOIN tb_item_cat cat ON item.cid = cat.id
+        where item.status = '1' and  item.id = #{id}
+    </select>
+
+
+
     
 
 </mapper>

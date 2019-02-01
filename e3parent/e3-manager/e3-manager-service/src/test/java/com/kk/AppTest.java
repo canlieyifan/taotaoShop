@@ -1,26 +1,33 @@
 package com.kk;
-
-import static org.junit.Assert.assertTrue;
-
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
-import com.kk.mapper.ItemMapper;
-import com.kk.pojo.EasyUITreeNode;
-import com.kk.pojo.Item;
-import com.kk.pojo.ItemExample;
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.apache.activemq.CustomDestination;
 import org.junit.Test;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.jms.*;
-import java.util.List;
+
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("classpath:spring/*.xml")
+public class AppTest
 {
+
+
+    @Test
+    public  void  fun1(){
+
+    }
+
+
+
+
+
+
+
     /*
         发送队列消息
      */

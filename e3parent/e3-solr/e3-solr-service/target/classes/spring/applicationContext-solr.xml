@@ -5,12 +5,12 @@
         ">
 
 
-    <bean class="org.apache.solr.client.solrj.impl.HttpSolrServer" name="httpSolrServer">
+    <bean class="org.apache.solr.client.solrj.impl.HttpSolrServer" name="httpSolrServer" >
         <constructor-arg name="baseURL" value="http://192.168.80.130:8080/solr"/>
     </bean>
 
 
-    <bean class="org.apache.solr.client.solrj.impl.CloudSolrServer" name="cloudSolrServer">
+    <bean class="org.apache.solr.client.solrj.impl.CloudSolrServer" name="cloudSolrServer" primary="true">
         <constructor-arg name="zkHost" value="192.168.80.130:2181,192.168.80.130:2182,192.168.80.130:2183"/>
         <property name="defaultCollection" value="collection2"></property>
     </bean>
