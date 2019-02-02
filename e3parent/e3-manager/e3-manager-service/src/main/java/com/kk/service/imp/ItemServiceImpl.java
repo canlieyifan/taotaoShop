@@ -9,8 +9,12 @@ import com.kk.pojo.EasyUIResult;
 import com.kk.pojo.Item;
 import com.kk.pojo.ItemDesc;
 import com.kk.pojo.ItemExample;
+import com.kk.pojo.ext.ItemView;
+import com.kk.redis.JedisClient;
 import com.kk.utils.E3Result;
+import com.kk.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -24,10 +28,53 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     private ItemDescMapper itemDescMapper;
 
+    @Autowired
+    private JedisClient jedisClient;
+
+    @Value("${id.prefix}")
+    private String prefix;
+    @Value("${id.end}")
+    private String end;
+
+
+    @Value("${ITEM_CACHE_EXPIRE}")
+    private String ITEM_CACHE_EXPIRE;
+
     @Override
     public Item selectItemBuyId(Long id) {
         Item item = itemMapper.selectByPrimaryKey(id);
         return item;
+    }
+
+    @Override
+    public ItemDesc selectItemDescById(Long id) {
+        ItemDesc itemDesc = itemDescMapper.selectByPrimaryKey(id);
+        return itemDesc;
+    }
+
+    @Override
+    public ItemView createItemView(Long id) {
+
+        String itemId = prefix+id+end;
+
+
+        System.out.println("itemId = " + itemId);
+        if(jedisClient.get(itemId)!=null&&!jedisClient.get(itemId).equals("")){
+            System.out.println("缓存存在于内存");
+            JsonUtils.jsonToPojo( jedisClient.get(itemId),ItemView.class);
+        }
+
+
+
+        Item item = itemMapper.selectByPrimaryKey(id);
+        ItemView itemView = new ItemView(item);
+
+        jedisClient.set(itemId,JsonUtils.objectToJson(itemView));
+        jedisClient.expire(itemId,Integer.parseInt(ITEM_CACHE_EXPIRE));
+        System.out.println("缓存被加入" );
+        return itemView;
+
+
     }
 
     @Override
@@ -53,7 +100,7 @@ public class ItemServiceImpl implements ItemService {
         EasyUIResult easyUIResult = new EasyUIResult();
 
 //      设置分页信息
-        PageHelper.startPage(page,rows);
+        PageHelper.startPage(page, rows);
 
         List<Item> items = itemMapper.selectByExample(new ItemExample());
 

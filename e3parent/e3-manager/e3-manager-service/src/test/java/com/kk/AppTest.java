@@ -1,7 +1,9 @@
 package com.kk;
+import com.kk.pojo.ext.ItemView;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -15,11 +17,14 @@ import javax.jms.*;
 @ContextConfiguration("classpath:spring/*.xml")
 public class AppTest
 {
-
+    @Autowired
+    private ItemService itemService;
 
     @Test
     public  void  fun1(){
 
+        ItemView itemView = itemService.createItemView(635906L);
+        System.out.println(" hello" );
     }
 
 

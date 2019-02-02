@@ -37,7 +37,6 @@ public class MyMessageListenr implements MessageListener {
             document.addField("item_category_name", searchItem.getCategory_name());
             solrServer.add(document);
             solrServer.commit();
-            System.out.println("searchItem = " + searchItem.getId());
         }catch (Exception e){
             e.printStackTrace();
         }
