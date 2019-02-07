@@ -12,28 +12,14 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/kk/controller/ItemController.java" line="62" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ffc47f-add0-4cb0-b2e3-7ef7f90d87a9" name="Default Changelist" comment="添加商品详情页面 并加入缓存">
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/main/java/com/kk/listener/MyMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/main/resources/spring/applicationContext-MQ.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/ftl/commons/footer.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/ftl/commons/header.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/ftl/commons/mainmenu.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/ftl/commons/shortcut.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/ftl/item.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e3-item-web/src/test/com/kk/tt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3-item-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-item-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3-item-web/src/main/resources/spring/SpringMvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-item-web/src/main/resources/spring/SpringMvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="56ffc47f-add0-4cb0-b2e3-7ef7f90d87a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kk/controller/ContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kk/controller/ContentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kk/controller/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kk/controller/FileUploadController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kk/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kk/controller/ItemCatController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kk/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kk/controller/ItemController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kk/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kk/controller/PageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kk/controller/SearchItemsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kk/controller/SearchItemsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-common/src/main/java/com/kk/utils/IDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-common/src/main/java/com/kk/utils/IDUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/pojo/EasyUIResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/pojo/EasyUIResult.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/pojo/EasyUITreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/pojo/EasyUITreeNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/pojo/SearchItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/pojo/SearchItem.class" afterDir="false" />
@@ -47,7 +33,6 @@
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-common/target/classes/com/kk/utils/JsonUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/target/classes/com/kk/contentService/ContentCategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/target/classes/com/kk/contentService/ContentCategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/target/classes/com/kk/contentService/ContentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-interface/target/classes/com/kk/contentService/ContentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/java/com/kk/contentService/imp/ContentCategoryServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/java/com/kk/contentService/imp/ContentCategoryServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/classes/com/kk/contentService/imp/ContentCategoryServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/classes/com/kk/contentService/imp/ContentCategoryServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -119,16 +104,11 @@
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/target/classes/com/kk/pojo/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/target/classes/com/kk/pojo/UserExample$Criterion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/target/classes/com/kk/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/target/classes/com/kk/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/target/classes/com/kk/pojo/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/target/classes/com/kk/pojo/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/main/java/com/kk/service/imp/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/main/java/com/kk/service/imp/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/test/java/com/kk/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/test/java/com/kk/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/classes/com/kk/service/imp/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/classes/com/kk/service/imp/ItemServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/classes/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/classes/conf/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/test-classes/com/kk/AppTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/test-classes/com/kk/AppTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/test-classes/com/kk/AppTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/test-classes/com/kk/AppTest$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/test-classes/com/kk/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/target/test-classes/com/kk/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/main/java/com/kk/MQ/MyMessageListenr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/main/java/com/kk/MQ/MyMessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/main/resources/spring/application-MQ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/main/resources/spring/application-MQ.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/test/java/com/kk/tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/test/java/com/kk/tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../e3parent/e3-common/target/" />
@@ -175,14 +155,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/main/java/com/kk/service/imp/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="1125">
+              <caret line="72" column="47" lean-forward="true" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
               <folding>
                 <element signature="e#906#920#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -549,7 +538,7 @@
     <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549542790836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549543009342" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../e3-protal-web/src/main/java/com/kk/protal" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../e3-item-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -890,7 +879,7 @@
       <workItem from="1549211698112" duration="7000" />
       <workItem from="1549419578090" duration="316000" />
       <workItem from="1549530147993" duration="6466000" />
-      <workItem from="1549539730150" duration="2951000" />
+      <workItem from="1549539730150" duration="3269000" />
     </task>
     <task id="LOCAL-00001" summary="完成图片上传至文件服务器">
       <created>1547804318757</created>
@@ -948,13 +937,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549126688367</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="关闭了对item数据的缓存 利用freemarker实现item页面静态化 并有nginx对item数据进行访问">
+      <created>1549542987269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549542987269</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_fun1 - 2019.02.02 at 23h 53m 33s.xml">
-      <configuration name="AppTest.fun1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_fun1 - 2019.02.03 at 00h 04m 46s.xml">
       <configuration name="AppTest.fun1" configurationId="JUnit" />
     </history-entry>
@@ -982,9 +975,12 @@
     <history-entry file="AppTest_sendTopicMessage - 2019.02.07 at 20h 21m 59s.xml">
       <configuration name="AppTest.sendTopicMessage" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_sendTopicMessage - 2019.02.07 at 20h 33m 08s.xml">
+      <configuration name="AppTest.sendTopicMessage" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132465000" />
+    <option name="totallyTimeSpent" value="132783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1018,7 +1014,7 @@
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49932975" weight="0.32991204" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32991204" />
-      <window_info anchor="bottom" x="22" y="307" width="1492" height="210" id="Run" order="11" sideWeight="0.50603217" weight="0.3739003" />
+      <window_info anchor="bottom" x="22" y="307" width="1492" height="210" id="Run" order="11" sideWeight="0.50603217" visible="true" weight="0.3739003" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.49934897" side_tool="true" weight="0.29325512" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49932975" weight="0.32991204" />
@@ -1089,19 +1085,8 @@
     <MESSAGE value="完成solr导入查询模块" />
     <MESSAGE value="完成消息任务(新建商品自动添加索引)" />
     <MESSAGE value="添加商品详情页面 并加入缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加商品详情页面 并加入缓存" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/main/java/com/kk/service/imp/ItemServiceImpl.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="关闭了对item数据的缓存 利用freemarker实现item页面静态化 并有nginx对item数据进行访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="关闭了对item数据的缓存 利用freemarker实现item页面静态化 并有nginx对item数据进行访问" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1351,13 +1336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/main/resources/spring/application-MQ.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1455,11 +1433,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/main/java/com/kk/service/imp/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="1125">
+          <caret line="72" column="47" lean-forward="true" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
           <folding>
             <element signature="e#906#920#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
