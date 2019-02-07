@@ -11,8 +11,10 @@
 
     <!--<context:property-placeholder location="classpath:spring/resource"/>-->
 
+    <import resource="applicationContext-MQ.xml"/>
+
     <!--扫包-->
-    <context:component-scan base-package="com.kk.controller"/>
+    <context:component-scan base-package="com.kk"/>
 
     <!--配置适配器与映射器 包括相应的一些转换-->
     <mvc:annotation-driven/>
@@ -25,6 +27,11 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!--配置Freemarker配置类 参数为 1模板位置 2默认编码格式-->
+    <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer" name="freeMarkerConfig">
+        <property name="templateLoaderPath" value="/WEB-INF/ftl/" />
+        <property name="defaultEncoding" value="UTF-8" />
+    </bean>
 
 
     <!-- 引用dubbo服务 -->

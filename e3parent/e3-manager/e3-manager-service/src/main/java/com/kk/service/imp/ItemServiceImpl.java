@@ -59,19 +59,22 @@ public class ItemServiceImpl implements ItemService {
 
 
         System.out.println("itemId = " + itemId);
-        if(jedisClient.get(itemId)!=null&&!jedisClient.get(itemId).equals("")){
-            System.out.println("缓存存在于内存");
-            JsonUtils.jsonToPojo( jedisClient.get(itemId),ItemView.class);
-        }
+
+     //清除缓存注入
+
+//        if(jedisClient.get(itemId)!=null&&!"".equals(jedisClient.get(itemId))){
+//            System.out.println("缓存存在于内存");
+//            JsonUtils.jsonToPojo( jedisClient.get(itemId),ItemView.class);
+//        }
 
 
 
         Item item = itemMapper.selectByPrimaryKey(id);
         ItemView itemView = new ItemView(item);
 
-        jedisClient.set(itemId,JsonUtils.objectToJson(itemView));
-        jedisClient.expire(itemId,Integer.parseInt(ITEM_CACHE_EXPIRE));
-        System.out.println("缓存被加入" );
+//        jedisClient.set(itemId,JsonUtils.objectToJson(itemView));
+//        jedisClient.expire(itemId,Integer.parseInt(ITEM_CACHE_EXPIRE));
+//        System.out.println("缓存被加入" );
         return itemView;
 
 

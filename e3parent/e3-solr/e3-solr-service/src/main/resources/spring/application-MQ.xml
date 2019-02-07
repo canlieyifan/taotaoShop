@@ -27,13 +27,13 @@
 
 
     <!--配置监听对象-->
-    <bean class="com.kk.MQ.MyMessageListenr" id="myMessageListenr"></bean>
+    <bean class="com.kk.MQ.MyMessageListener" id="myMessageListener"></bean>
 
     <!--配置监听容器-->
     <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
         <property name="connectionFactory" ref="connectionFactory"/>
         <property name="destination" ref="activeMQTopic"/>
-        <property name="messageListener" ref="myMessageListenr"/>
+        <property name="messageListener" ref="myMessageListener"/>
     </bean>
 
 

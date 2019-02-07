@@ -33,7 +33,6 @@ public class ItemController {
     private JmsTemplate jmsTemplate;
 
     @Autowired
-//    默认广播发送
     private Destination destination;
 
     @RequestMapping("selectTbItemById/{id}")

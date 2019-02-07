@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--生成activemq的工厂连接对象-->
+    <bean class="org.apache.activemq.ActiveMQConnectionFactory" name="mqConnectionFactory">
+        <property name="brokerURL" value="tcp://192.168.80.130:61616"/>
+    </bean>
+
+    <!--spring对其进行包裹-->
+    <bean class="org.springframework.jms.connection.SingleConnectionFactory" name="connectionFactory">
+        <property name="targetConnectionFactory" ref="mqConnectionFactory"/>
+    </bean>
+
+    <!--接受广播-->
+    <bean class="org.apache.activemq.command.ActiveMQTopic" name="activeMQTopic">
+        <property name="physicalName" value="Item_id"/>
+     </bean>
+
+    <!--注册对象-->
+    <bean class="com.kk.listener.MyMessageListener" name="myMessageListener"/>
+
+
+    <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer" name="listenerContainer">
+        <property name="messageListener" ref="myMessageListener"/>
+        <property name="destination" ref="activeMQTopic"/>
+        <property name="connectionFactory" ref="connectionFactory"/>
+     </bean>
+
+
+</beans>

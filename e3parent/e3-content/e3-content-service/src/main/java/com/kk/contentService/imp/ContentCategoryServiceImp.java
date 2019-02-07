@@ -27,8 +27,9 @@ public class ContentCategoryServiceImp implements ContentCategoryService {
         ContentCategory contentCategory = categoryMapper.selectByPrimaryKey(id);
 
 //        如果是父节点 无操作
-        if(contentCategory.getIsParent())
+        if(contentCategory.getIsParent()) {
             return E3Result.ok();
+        }
 
         categoryMapper.deleteByPrimaryKey(id);
 

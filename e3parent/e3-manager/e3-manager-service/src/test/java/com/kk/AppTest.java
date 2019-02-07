@@ -13,19 +13,12 @@ import javax.jms.*;
 /**
  * Unit test for simple App.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:spring/*.xml")
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@ContextConfiguration("classpath:spring/")
 public class AppTest
 {
-    @Autowired
-    private ItemService itemService;
-
-    @Test
-    public  void  fun1(){
-
-        ItemView itemView = itemService.createItemView(635906L);
-        System.out.println(" hello" );
-    }
+//    @Autowired
+//    private ItemService itemService;
 
 
 
@@ -113,11 +106,11 @@ public class AppTest
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 
         // 创建广播类型
-        Topic topic = session.createTopic("test_topic");
+        Topic topic = session.createTopic("Item_id");
 
         MessageProducer producer = session.createProducer(topic);
 
-        TextMessage message = session.createTextMessage("这是高手 这个厉害");
+        TextMessage message = session.createTextMessage("154954086554574");
 
         producer.send(message);
 

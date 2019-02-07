@@ -11,7 +11,7 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
-public class MyMessageListenr implements MessageListener {
+public class MyMessageListener implements MessageListener {
 
     @Autowired
     private SearchMapper searchMapper;
