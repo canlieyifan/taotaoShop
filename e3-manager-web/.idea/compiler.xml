@@ -20,13 +20,11 @@
         <module name="e3-solr-dao" />
         <module name="e3-solr-interface" />
         <module name="e3-solr-service" />
+        <module name="e3-sso-interface" />
+        <module name="e3-sso-service" />
+        <module name="e3-sso-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="e3-solr-web" target="7" />
-      <module name="e3protalweb" target="1.5" />
-      <module name="hh" target="1.7" />
-      <module name="workspace" target="1.7" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="7" />
   </component>
 </project>
