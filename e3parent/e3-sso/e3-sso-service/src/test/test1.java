@@ -1,3 +1,4 @@
+import com.kk.pojo.User;
 import com.kk.sso.UserService;
 import com.kk.utils.E3Result;
 import org.junit.Test;
@@ -16,9 +17,15 @@ public class test1 {
     
     @Test
     public void fun(){
-        E3Result zhangsan = userService.checkData("13955107197", 2);
-        System.out.println("zhangsan.getData().toString() = " + zhangsan.getData().toString());
-    }    
+        User user = new User();
+        user.setUsername("zhangming");
+        user.setPassword("1213");
+
+
+        E3Result e3Result = userService.checkUserAccount(user);
+        System.out.println("e3Result = " + e3Result);
+
+    }
     
     
     
