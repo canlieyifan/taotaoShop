@@ -13,16 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56ffc47f-add0-4cb0-b2e3-7ef7f90d87a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../e3parent/e3-common/src/main/java/com/kk/utils/CookieUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3-sso-web/src/main/java/com/kk/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-sso-web/src/main/java/com/kk/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3-sso-web/src/main/resources/spring/SpringMvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-sso-web/src/main/resources/spring/SpringMvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-interface/src/main/java/com/kk/sso/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-interface/src/main/java/com/kk/sso/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/java/com/kk/sso/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/java/com/kk/sso/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/test/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/test/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3-protal-web/src/main/resources/spring/SpringMvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-protal-web/src/main/resources/spring/SpringMvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/classes/spring/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/classes/spring/applicationContext-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../e3parent/e3-common/target/" />
@@ -78,7 +74,7 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,9 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-interface/src/main/java/com/kk/ItemService.java" />
-        <option value="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/../e3-item-web/src/main/java/com/kk/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/src/main/java/com/kk/pojo/ext/ItemView.java" />
         <option value="$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/jsp/item.jsp" />
         <option value="$PROJECT_DIR$/../e3-item-web/src/main/webapp/WEB-INF/web.xml" />
@@ -192,6 +185,9 @@
         <option value="$PROJECT_DIR$/../e3parent/e3-common/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-sso-web/src/main/java/com/kk/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../e3parent/e3-common/src/main/java/com/kk/utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/../e3-protal-web/src/main/resources/spring/SpringMvc.xml" />
+        <option value="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-service.xml" />
       </list>
     </option>
   </component>
@@ -237,10 +233,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="166" />
-    <option name="y" value="-24" />
+    <option name="x" value="108" />
+    <option name="y" value="-12" />
     <option name="width" value="1935" />
-    <option name="height" value="1083" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -250,37 +246,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="e3-manager-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-sso-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-manager-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-manager-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549723702720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549765757269" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../e3-protal-web/src/main/java/com/kk/protal" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../e3-item-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -638,6 +613,7 @@
       <workItem from="1549626208779" duration="8859000" />
       <workItem from="1549644619748" duration="4798000" />
       <workItem from="1549713957260" duration="8237000" />
+      <workItem from="1549764282620" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="完成图片上传至文件服务器">
       <created>1547804318757</created>
@@ -759,7 +735,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155922000" />
+    <option name="totallyTimeSpent" value="157391000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -771,9 +747,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="710" y="621" width="1548" height="867" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4941349" visible="true" weight="0.2386059" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4941349" visible="true" weight="0.24228188" />
       <window_info id="Structure" order="1" sideWeight="0.5058651" side_tool="true" weight="0.20040214" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -792,7 +768,7 @@
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49932975" weight="0.32991204" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32991204" />
-      <window_info anchor="bottom" x="22" y="307" width="1492" height="210" id="Run" order="11" sideWeight="0.50268096" visible="true" weight="0.33577713" />
+      <window_info active="true" anchor="bottom" x="22" y="307" width="1492" height="210" id="Run" order="11" sideWeight="0.50268096" visible="true" weight="0.3727145" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.49731904" side_tool="true" weight="0.25513196" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49932975" weight="0.32991204" />
@@ -885,52 +861,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-search-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200" />
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/resources/spring/resource">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-protal-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="383" selection-start-line="383" selection-end-line="390" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://D:/software/apache-maven-3.6.0/conf/settings.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -951,24 +883,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/webapp/index.jsp" />
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-pojo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600" />
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-dao/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675" />
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="91" column="21" selection-start-line="43" selection-start-column="5" selection-end-line="106" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -979,25 +911,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-interface/src/main/java/com/kk/App.java" />
     <entry file="file://$PROJECT_DIR$/../e3parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-750" />
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-sso/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-943">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-solr/e3-solr-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-450" />
       </provider>
@@ -1068,20 +995,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-sso-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-207">
           <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-interface/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-manager/e3-manager-service/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1143,12 +1070,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-sso/e3-sso-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1193,12 +1120,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3parent/e3-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-sso-web/src/main/java/com/kk/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1217,16 +1144,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/resources/spring/SpringMvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="30" selection-start-line="30" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../e3-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-protal-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="383" selection-start-line="383" selection-end-line="390" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/resources/spring/resource">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-protal-web/src/main/resources/spring/SpringMvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3parent/e3-content/e3-content-service/src/main/resources/conf/resource">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
       </provider>
     </entry>
   </component>
