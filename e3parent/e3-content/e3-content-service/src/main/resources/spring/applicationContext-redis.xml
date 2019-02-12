@@ -12,42 +12,42 @@
 
 
 
-    <!--集群版本-->
-    <bean class="redis.clients.jedis.JedisCluster" name="jedisCluster">
-        <constructor-arg name="nodes">
-            <set>
-                <bean class="redis.clients.jedis.HostAndPort" >
-                    <constructor-arg name="host" value="192.168.80.128"></constructor-arg>
-                    <constructor-arg name="port" value="7001"></constructor-arg>
-                </bean>
-                <bean class="redis.clients.jedis.HostAndPort" >
-                    <constructor-arg name="host" value="192.168.80.128"></constructor-arg>
-                    <constructor-arg name="port" value="7002"></constructor-arg>
-                </bean>
-                <bean class="redis.clients.jedis.HostAndPort" >
-                    <constructor-arg name="host" value="192.168.80.128"></constructor-arg>
-                    <constructor-arg name="port" value="7003"></constructor-arg>
-                </bean>
-                <bean class="redis.clients.jedis.HostAndPort" >
-                    <constructor-arg name="host" value="192.168.80.128"></constructor-arg>
-                    <constructor-arg name="port" value="7004"></constructor-arg>
-                </bean>
-                <bean class="redis.clients.jedis.HostAndPort" >
-                    <constructor-arg name="host" value="192.168.80.128"></constructor-arg>
-                    <constructor-arg name="port" value="7005"></constructor-arg>
-                </bean>
-                <bean class="redis.clients.jedis.HostAndPort" >
-                    <constructor-arg name="host" value="192.168.80.128"></constructor-arg>
-                    <constructor-arg name="port" value="7006"></constructor-arg>
-                </bean>
-            </set>
-        </constructor-arg>
-    </bean>
+    <!--&lt;!&ndash;集群版本&ndash;&gt;-->
+    <!--<bean class="redis.clients.jedis.JedisCluster" name="jedisCluster">-->
+        <!--<constructor-arg name="nodes">-->
+            <!--<set>-->
+                <!--<bean class="redis.clients.jedis.HostAndPort" >-->
+                    <!--<constructor-arg name="host" value="192.168.80.128"></constructor-arg>-->
+                    <!--<constructor-arg name="port" value="7001"></constructor-arg>-->
+                <!--</bean>-->
+                <!--<bean class="redis.clients.jedis.HostAndPort" >-->
+                    <!--<constructor-arg name="host" value="192.168.80.128"></constructor-arg>-->
+                    <!--<constructor-arg name="port" value="7002"></constructor-arg>-->
+                <!--</bean>-->
+                <!--<bean class="redis.clients.jedis.HostAndPort" >-->
+                    <!--<constructor-arg name="host" value="192.168.80.128"></constructor-arg>-->
+                    <!--<constructor-arg name="port" value="7003"></constructor-arg>-->
+                <!--</bean>-->
+                <!--<bean class="redis.clients.jedis.HostAndPort" >-->
+                    <!--<constructor-arg name="host" value="192.168.80.128"></constructor-arg>-->
+                    <!--<constructor-arg name="port" value="7004"></constructor-arg>-->
+                <!--</bean>-->
+                <!--<bean class="redis.clients.jedis.HostAndPort" >-->
+                    <!--<constructor-arg name="host" value="192.168.80.128"></constructor-arg>-->
+                    <!--<constructor-arg name="port" value="7005"></constructor-arg>-->
+                <!--</bean>-->
+                <!--<bean class="redis.clients.jedis.HostAndPort" >-->
+                    <!--<constructor-arg name="host" value="192.168.80.128"></constructor-arg>-->
+                    <!--<constructor-arg name="port" value="7006"></constructor-arg>-->
+                <!--</bean>-->
+            <!--</set>-->
+        <!--</constructor-arg>-->
+    <!--</bean>-->
 
 
-    <bean class="com.kk.redis.JedisClientCluster" name="clientCluster">
-        <property name="jedisCluster" ref="jedisCluster"/>
-    </bean>
+    <!--<bean class="com.kk.redis.JedisClientCluster" name="clientCluster">-->
+        <!--<property name="jedisCluster" ref="jedisCluster"/>-->
+    <!--</bean>-->
 
 
     <!--单机版redis 作为开发使用-->

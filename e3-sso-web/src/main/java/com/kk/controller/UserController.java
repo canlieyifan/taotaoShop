@@ -4,7 +4,11 @@ import com.kk.pojo.User;
 import com.kk.sso.UserService;
 import com.kk.utils.CookieUtils;
 import com.kk.utils.E3Result;
+import com.kk.utils.JsonUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.http.MediaTypeEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -45,12 +49,26 @@ public class UserController {
         if(e3Result.getStatus()!=200){
             return e3Result;
         }
-
         String tokenKey = (String) e3Result.getData();
 //        利用工具类将cookie写入浏览器
         CookieUtils.setCookie(request,response,"e3-token",tokenKey);
         return e3Result;
     }
+
+    @ResponseBody
+    @RequestMapping(value = "token/{value}",produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public String isLogin(@PathVariable String value,String callback){
+        E3Result e3Result = userService.checkUserInfo(value);
+        //相应结果前 判断是否由callback请求
+        if(StringUtils.isNotBlank(callback)) {
+            return callback+"("+ JsonUtils.objectToJson(e3Result)+")";
+        }
+
+        return JsonUtils.objectToJson(e3Result);
+
+    }
+
+
 
 
 

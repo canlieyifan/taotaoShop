@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="e3-cart-interface" />
+        <module name="e3-cart-service" />
+        <module name="e3-cart-web" />
         <module name="e3-common" />
         <module name="e3-content-interface" />
         <module name="e3-content-service" />

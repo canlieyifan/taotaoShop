@@ -12,7 +12,6 @@ import com.kk.pojo.ItemExample;
 import com.kk.pojo.ext.ItemView;
 import com.kk.redis.JedisClient;
 import com.kk.utils.E3Result;
-import com.kk.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -57,8 +56,6 @@ public class ItemServiceImpl implements ItemService {
 
         String itemId = prefix+id+end;
 
-
-        System.out.println("itemId = " + itemId);
 
      //清除缓存注入
 

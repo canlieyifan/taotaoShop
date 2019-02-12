@@ -7,4 +7,5 @@ public interface UserService {
     E3Result checkData(String value,Integer type);
     E3Result register(User user);
     E3Result checkUserAccount(User user);
+    E3Result checkUserInfo(String value);
 }

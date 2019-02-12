@@ -13,7 +13,6 @@ import org.springframework.util.DigestUtils;
 
 import java.util.Date;
 import java.util.List;
-import java.util.Random;
 
 
 @Service
@@ -27,6 +26,19 @@ public class UserServiceImpl implements UserService{
     private JedisClient jedisClient;
 
     @Override
+    public E3Result checkUserInfo(String value) {
+        String user = jedisClient.get(value);
+        if(user==null){
+            return E3Result.build(400,"用户信息可能过期,请重新登录");
+        }
+
+        jedisClient.expire(value,600);
+
+        return E3Result.ok(JsonUtils.jsonToPojo(user,User.class));
+
+    }
+
+    @Override
     public E3Result checkUserAccount(User user) {
         UserExample userExample = new UserExample();
         UserExample.Criteria criteria = userExample.createCriteria();
@@ -37,8 +49,9 @@ public class UserServiceImpl implements UserService{
             return E3Result.build(400,"无该用户");
         }
 
-        if(!users.get(0).getPassword().equals(DigestUtils.md5DigestAsHex(user.getPassword().getBytes())))
+        if(!users.get(0).getPassword().equals(DigestUtils.md5DigestAsHex(user.getPassword().getBytes()))) {
             return E3Result.build(400,"密码错误");
+        }
 
 
 //        将用户信息写入到redis中

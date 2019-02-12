@@ -1,6 +1,5 @@
 package com.kk;
 
-import com.kk.redis.JedisClient;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class tes {

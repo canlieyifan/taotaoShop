@@ -65,7 +65,7 @@
         <dependency>
             <groupId>fastdfs_client</groupId>
             <artifactId>fastdfs_client</artifactId>
-            <version> RELEASE</version>
+            <version>RELEASE</version>
         </dependency>
 
 
@@ -85,8 +85,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jsp-api</artifactId>
         </dependency>
-
-
 
 
     </dependencies>

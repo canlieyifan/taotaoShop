@@ -10,7 +10,6 @@ import com.kk.pojo.EasyUIResult;
 import com.kk.redis.JedisClient;
 import com.kk.utils.E3Result;
 import com.kk.utils.JsonUtils;
-import org.omg.CORBA.TCKind;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
