@@ -3,7 +3,6 @@ package com.kk.cart.controller;
 import com.kk.cart.CartService;
 import com.kk.pojo.Item;
 import com.kk.pojo.User;
-import com.kk.sso.UserService;
 import com.kk.utils.CookieUtils;
 import com.kk.utils.E3Result;
 import com.kk.utils.JsonUtils;

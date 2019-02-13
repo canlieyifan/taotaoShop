@@ -47,6 +47,20 @@ public class OrderItem implements Serializable {
         return num;
     }
 
+    public OrderItem() {
+    }
+
+    public OrderItem(String id, String itemId, String orderId, Integer num, String title, Long price, Long totalFee, String picPath) {
+        this.id = id;
+        this.itemId = itemId;
+        this.orderId = orderId;
+        this.num = num;
+        this.title = title;
+        this.price = price;
+        this.totalFee = totalFee;
+        this.picPath = picPath;
+    }
+
     public void setNum(Integer num) {
         this.num = num;
     }

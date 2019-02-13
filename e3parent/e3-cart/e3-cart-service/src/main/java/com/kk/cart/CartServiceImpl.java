@@ -2,6 +2,7 @@ package com.kk.cart;
 
 import com.kk.mapper.ItemMapper;
 import com.kk.pojo.Item;
+import com.kk.pojo.ext.ItemView;
 import com.kk.redis.JedisClient;
 import com.kk.utils.E3Result;
 import com.kk.utils.JsonUtils;
@@ -57,6 +58,25 @@ public class CartServiceImpl implements CartService {
         Item item = JsonUtils.jsonToPojo(json, Item.class);
         item.setNum(num);
         jedisClient.hset(cartPre + userId, itemId.toString(),JsonUtils.objectToJson(item));
+    }
+
+    @Override
+    public void deleteCart(Long id) {
+         jedisClient.del(id.toString());
+    }
+
+    @Override
+    public List<ItemView> getCartListById(Long id) {
+        List<String> hvals = jedisClient.hvals(cartPre + id);
+
+        ArrayList<ItemView> items = new ArrayList<>();
+
+        for (String hval : hvals) {
+            Item item = JsonUtils.jsonToPojo(hval, Item.class);
+            ItemView itemView = new ItemView(item);
+            items.add(itemView);
+        }
+        return items;
     }
 
     @Override

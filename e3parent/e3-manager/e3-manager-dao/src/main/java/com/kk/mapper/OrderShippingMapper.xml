@@ -82,7 +82,7 @@
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from tb_order_shopping
+    from tb_order_shipping
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
@@ -93,21 +93,21 @@
   <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
-    from tb_order_shopping
+    from tb_order_shipping
     where order_id = #{orderId,jdbcType=VARCHAR}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
-    delete from tb_order_shopping
+    delete from tb_order_shipping
     where order_id = #{orderId,jdbcType=VARCHAR}
   </delete>
   <delete id="deleteByExample" parameterType="com.kk.pojo.OrderShippingExample">
-    delete from tb_order_shopping
+    delete from tb_order_shipping
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
   <insert id="insert" parameterType="com.kk.pojo.OrderShipping">
-    insert into tb_order_shopping (order_id, receiver_name, receiver_phone, 
+    insert into tb_order_shipping (order_id, receiver_name, receiver_phone, 
       receiver_mobile, receiver_state, receiver_city, 
       receiver_district, receiver_address, receiver_zip, 
       created, updated)
@@ -117,7 +117,7 @@
       #{created,jdbcType=TIMESTAMP}, #{updated,jdbcType=TIMESTAMP})
   </insert>
   <insert id="insertSelective" parameterType="com.kk.pojo.OrderShipping">
-    insert into tb_order_shopping
+    insert into tb_order_shipping
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="orderId != null">
         order_id,
@@ -190,13 +190,13 @@
     </trim>
   </insert>
   <select id="countByExample" parameterType="com.kk.pojo.OrderShippingExample" resultType="java.lang.Long">
-    select count(*) from tb_order_shopping
+    select count(*) from tb_order_shipping
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map">
-    update tb_order_shopping
+    update tb_order_shipping
     <set>
       <if test="record.orderId != null">
         order_id = #{record.orderId,jdbcType=VARCHAR},
@@ -237,7 +237,7 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map">
-    update tb_order_shopping
+    update tb_order_shipping
     set order_id = #{record.orderId,jdbcType=VARCHAR},
       receiver_name = #{record.receiverName,jdbcType=VARCHAR},
       receiver_phone = #{record.receiverPhone,jdbcType=VARCHAR},
@@ -254,7 +254,7 @@
     </if>
   </update>
   <update id="updateByPrimaryKeySelective" parameterType="com.kk.pojo.OrderShipping">
-    update tb_order_shopping
+    update tb_order_shipping
     <set>
       <if test="receiverName != null">
         receiver_name = #{receiverName,jdbcType=VARCHAR},
@@ -290,7 +290,7 @@
     where order_id = #{orderId,jdbcType=VARCHAR}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.kk.pojo.OrderShipping">
-    update tb_order_shopping
+    update tb_order_shipping
     set receiver_name = #{receiverName,jdbcType=VARCHAR},
       receiver_phone = #{receiverPhone,jdbcType=VARCHAR},
       receiver_mobile = #{receiverMobile,jdbcType=VARCHAR},

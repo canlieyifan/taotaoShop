@@ -15,6 +15,7 @@
         <module>e3-solr</module>
         <module>e3-sso</module>
         <module>e3-cart</module>
+        <module>e3-order</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

@@ -1,0 +1,3 @@
+COOKIE_CART=cartCookie
+COOKIE_USER=e3-token
+SSO_URL=http://localhost:8088/page/login?

@@ -20,8 +20,6 @@ public class LoginIntercept implements HandlerInterceptor {
     @Value("${COOKIE_USER}")
     private String userCookie;
 
-    @Autowired
-    private CartService cartService;
 
     @Autowired
     private UserService userService;
